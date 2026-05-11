@@ -175,7 +175,7 @@ export default function CobotDashboard({
           </h2>
 
           <div className="mb-8 grid grid-cols-1 gap-5 md:grid-cols-4">
-            <Card title="TODAY'S TASK SUCCESS RATE">
+            <Card title="AVERAGE TASK SUCCESS RATE">
               <GaugeChart
                 value={allSuccessRate}
                 subtitle="Overall success rate"
@@ -189,7 +189,7 @@ export default function CobotDashboard({
               />
             </Card>
 
-            <Card title="TOTAL TASKS TODAY">
+            <Card title="TOTAL TASKS">
               <div className="flex w-full items-center justify-around text-center">
                 <Stat label="Total" value={allTotalTasks} />
                 <Stat
